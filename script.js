@@ -30,7 +30,7 @@ const text = document.querySelector(".giveaway"); // Ensure your HTML has an ele
 const deadline = document.querySelectorAll(".countdown span"); // Ensure countdown spans exist in your HTML
 
 // Setting the future date (December 12, 2023, at 12:30 PM)
-const futureDate = new Date(2024, 11, 14, 12, 30, 0); // Month is 0-based (December is 11)
+const futureDate = new Date(2025, 11, 14, 12, 30, 0); // Month is 0-based (December is 11)
 
 const day = futureDate.getDay();
 const date = futureDate.getDate();
